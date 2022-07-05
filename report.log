@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.7)  23 JUN 2022 20:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.7)  5 JUL 2022 11:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -908,43 +908,44 @@ Overfull \hbox (3.11188pt too wide) in paragraph at lines 63--65
 \OT1/lmtt/m/n/10 abschluesse / leistungskontrollen / plagiarism -[] citationetiquette . pdf$[]\OT1/lmr/m/n/10 ). The
  []
 
-) [1] (./chapters/transfer.tex
-Missing character: There is no “ ("201C) in font rm-lmr10!
-Missing character: There is no ” ("201D) in font rm-lmr10!
-Missing character: There is no “ ("201C) in font rm-lmr10!
-Missing character: There is no ” ("201D) in font rm-lmr10!
-Missing character: There is no “ ("201C) in font rm-lmr10!
-Missing character: There is no ” ("201D) in font rm-lmr10!
-) [2
-
-] (./report.toc)
+) [1] (./report.toc)
 \tf@toc=\write5
 \openout5 = `report.toc'.
 
- [3
+ [2
+
+
+] (./chapters/preface.tex) [3
+
 
 ] [4
 
-] (./chapters/preface.tex) [5
+] (./chapters/abstract.tex) [5
 
 ] [6
 
-] (./chapters/abstract.tex) [7
+] (./chapters/symbols.tex) [7
 
 ] [8
 
-] (./chapters/symbols.tex) [9
-
-] [10
-
 ] (./chapters/introduction.tex
 Chapter 1.
-) [1
+) (./chapters/related_work.tex [1
 
-] [2
+]
+Chapter 2.
+
+Package natbib Warning: Citation `GhaffariJadidi2018a' on page 2 undefined on input line 11.
+
+
+Overfull \hbox (9.63959pt too wide) in paragraph at lines 9--13
+[]\OT1/lmr/m/n/10 A num-ber of works have been per-formed. Fankhuser have built a ge-o-met-ric traversabil-
+ []
+
+) [2
 
 ] (./chapters/chapter.tex
-Chapter 2.
+Chapter 3.
 LaTeX Font Info:    Trying to load font information for OMS+lmtt on input line 15.
 LaTeX Font Info:    No file OMSlmtt.fd. on input line 15.
 
@@ -965,6 +966,7 @@ Package natbib Warning: Citation `Vukobratovic2004ZeroMomentPoint' on page 3 und
 Package natbib Warning: Citation `Pratt1995SEA' on page 3 undefined on input line 25.
 
 [3
+
 
 ] [4]
 File: images/k_surf.pdf Graphic file (type pdf)
@@ -989,7 +991,7 @@ LaTeX Font Info:    Font shape `OML/lmr/bx/it' in size <7> not available
 LaTeX Font Info:    Font shape `OML/lmr/bx/it' in size <5> not available
 (Font)              Font shape `OML/lmm/b/it' tried instead on input line 186.
 )
-Overfull \hbox (6.08188pt too wide) in paragraph at lines 194--91
+Overfull \hbox (6.08188pt too wide) in paragraph at lines 194--92
 []\OT1/lmr/m/n/10 Einheiten wer-den mit den Be-fehlen \OMS/lmtt/m/n/10 n\OT1/lmtt/m/n/10 unit[1]\OMS/lmtt/m/n/10 f\OT1/lmtt/m/n/10 m\OMS/lmtt/m/n/10 g \OT1/lmr/m/n/10 (z.B. 1m) und \OMS/lmtt/m/n/10 n\OT1/lmtt/m/n/10 unitfrac[1]\OMS/lmtt/m/n/10 f\OT1/lmtt/m/n/10 m\OMS/lmtt/m/n/10 gf\OT1/lmtt/m/n/10 s\OMS/lmtt/m/n/10 g
  []
 
@@ -997,56 +999,28 @@ Overfull \hbox (6.08188pt too wide) in paragraph at lines 194--91
 No file report.bbl.
 (./chapters/appendix_text.tex
 Appendix A.
-) [7
-
-
-
-] [8
-
-] (./chapters/appendix_datasheets.tex
-Appendix B.
-File: images/datasheets.pdf Graphic file (type pdf)
-<use images/datasheets.pdf>
-File: images/datasheets.pdf Graphic file (type pdf)
-<use images/datasheets.pdf>
-File: images/datasheets.pdf Graphic file (type pdf)
-<use images/datasheets.pdf, page 1>
-File: images/datasheets.pdf Graphic file (type pdf)
-<use images/datasheets.pdf, page 1>
-[9
-
-]
-File: images/datasheets.pdf Graphic file (type pdf)
-<use images/datasheets.pdf, page 1>
-File: images/datasheets.pdf Graphic file (type pdf)
-<use images/datasheets.pdf, page 1>
-File: images/datasheets.pdf Graphic file (type pdf)
-<use images/datasheets.pdf, page 1>
- [10]
-File: images/datasheets.pdf Graphic file (type pdf)
-<use images/datasheets.pdf, page 2>
-File: images/datasheets.pdf Graphic file (type pdf)
-<use images/datasheets.pdf, page 2>
-File: images/datasheets.pdf Graphic file (type pdf)
-<use images/datasheets.pdf, page 2>
- [11])
+)
 
 Package natbib Warning: There were undefined citations.
 
-(./report.aux)
+[7
+
+
+
+] (./report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 06B2FA0D019612F24256650A6EB291C7;2044.
+(rerunfilecheck)             Checksum: 528CF453CD45F5FE7D4B13CE84D194D0;2056.
  ) 
 Here is how much of TeX's memory you used:
- 26869 strings out of 476257
- 522099 string characters out of 5811150
+ 26845 strings out of 476257
+ 521431 string characters out of 5811150
  818009 words of memory out of 5000000
- 46979 multiletter control sequences out of 15000+600000
+ 46960 multiletter control sequences out of 15000+600000
  459444 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,19n,106p,616b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 104i,15n,106p,441b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on report.pdf (23 pages).
+Output written on report.pdf (17 pages).
