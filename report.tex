@@ -71,8 +71,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Chapters standard
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{chapters/preface}
-\cleardoublepage
+% \input{chapters/preface}
+% \cleardoublepage
 \input{chapters/abstract}
 \cleardoublepage
 \input{chapters/symbols}
@@ -87,9 +87,9 @@
 % TODO Add your own chapters here
 \input{chapters/introduction}
 \input{chapters/related_work}
-\cleardoublepage
-\input{chapters/chapter}
-\cleardoublepage
+% \cleardoublepage
+% \input{chapters/chapter}
+% \cleardoublepage
 % \input{}
 % \cleardoublepage
 % \input{}
@@ -100,8 +100,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bibliography
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% solve all the issues related to the bibliography by following this: https://tex.stackexchange.com/questions/168312/latex-warning-citation-undefined
+
 \bibliographystyle{bibliography/IEEEtranN}
-\bibliography{bibliography/references}
+\bibliography{bibliography/SemesterThesis}
 \addcontentsline{toc}{chapter}{Bibliography}
 \cleardoublepage
 
@@ -109,6 +111,6 @@
 % Appendix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \appendix
-\input{chapters/appendix_text}
+% \input{chapters/appendix_text}
 
 \end{document}

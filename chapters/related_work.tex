@@ -3,21 +3,38 @@
 
 
 
-The goal of this work is to provide a gemetric and semantic traversability map from a stereo image pairs. 
+% The goal of this work is to provide a gemetric and semantic traversability map from a stereo image pairs. 
 
+Geometric traversability. 
 
 A number of works have been performed. Fankhuser have built a geometric traversability estimation that levereages 
 the slope: meaning the angle of the obstacles surfaces normal and the roughness: 
-meaning the difference between the elvation estimation and the smoothed elevation estimation (reference fankhauser) \cite{GhaffariJadidi2018a}. 
+meaning the difference between the elvation estimation and the smoothed elevation estimation (reference fankhauser) 
 In .. they use ...
 
-There are different ways to map the information contained in images to the map. Different approaches (cite all ) use a
- pointcloud extracted from a depth map. This method allows to contain solely range information but also to provide more 
- channels to each point which results into a multichannel pointcloud. 
-Various approaches have been used to infer the semantic information into the map.
+
+Semantic mapping.
+Semantic Mapping has shown to be a critical component to estimate the traversability to ensure a safe  autonomous navigation of ground robots. In \citep{Rosinol2020,Paz2020a, Gan2021a} (13,10, 17,24,23, 22,19,12,10,7) the authors aim to embed semantic information into a 3D voxelized space. 
+However, the high dimensionality of the map has shown to be very memory consuming and computationally intensive.
+
+%TODO: further describe how they fuse the points into the map. Maybe put it into three categories: 
+
+averaging, voting scheme (25,10) use an averaging scheme to build the map from the 3D and semantic information.
+In (24,13) they build the map through a Bayesian framework and thus infer the measurements into the map over time.
+In (13) they exploit inter-layer correlations to have a deeper understanding of the environment.
+ In (23,22,19,7) Conditional Random Fields (CRF) or Bayes spatial kernels (actually these are continuous maps) are used to relax the independent grid assumption and thus regularizing and smooth the map.
+ (12,14) adopt a method to create continuous maps by using Gaussian Processes to fuse the geometrical and the semantic information into the map. This approach however is computationally very intensive ($N^3$).
 
 
-maybe look for some more papers.
+In \citep{Cartillier2021a, } (26,27, 18,16) the authors use a 2.5D map that stores the elevation information of the map and include also the semantic information of the map.
+Semantic approach:
+To store semantic information in a map coming from a egocentric remote sensor such as a camera mainly two approaches have been pursued. (citation) perform a semantic segmentation directly on the egocentric image and then project the semantic classes into the map. 
+Similarly to our work at MapNet and ... the authors perform a feature extraction on the egocentric image and then project the features into the map. 
+
+
+
+
+
 Start with least similar and end with most similar approach.
 
 
